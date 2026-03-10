@@ -36,9 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/dzje92/script-1/refs
 ------ Tab3
      local Tab3o = MakeTab({Name = "... Player [ Beta ]"})
 ------ Tab4
-     local Tab4o = MakeTab({Name = "Other Features"})
------- Tab5
-     local Tab5o = MakeTab({Name = "Keyboard"})
+     local Tab4o = MakeTab({Name = "Keyboard"})
 ------- BUTTON   1
     AddButton(Tab1o, {
      Name = "Hop Sever",
@@ -123,23 +121,9 @@ AddButton(Tab3o, {
     loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/HopSeverLowPlayer-/refs/heads/main/Under.12.Player.lua")()
   end
   })
+
 ------- BUTTON   4
 AddButton(Tab4o, {
-     Name = "Leave If Admin Blox Fruits Join V1",
-    Callback = function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/FreeSeverVip.All/refs/heads/main/HopAdmin.BLF.V1.lua")()
-  end
-  })
---  
-  AddButton(Tab4o, {
-     Name = "Leave If Admin Blox Fruits Join V2",
-    Callback = function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/FreeSeverVip.All/refs/heads/main/HopAdmin.BLF.V2.lua")()
-  end
-  })
-
-------- BUTTON   5
-AddButton(Tab5o, {
      Name = "F9",
     Callback = function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/dzje92/Decryption-script/refs/heads/main/F9.lua")()
@@ -147,4 +131,5 @@ AddButton(Tab5o, {
   })
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/710200999/notification/refs/heads/main/notification.lua")()
+
  
